@@ -18,7 +18,7 @@ describe "Strings" do
     it "should create a symbol" do
     
       frog = "frog"
-      frog.to_sym
+      frog = frog.to_sym
       
       frog.should eq :frog
     end
