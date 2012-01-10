@@ -13,5 +13,16 @@ describe "Strings" do
     
   end
   
+  context "when calling to_sym" do
+    
+    it "should create a symbol" do
+    
+      frog = "frog"
+      frog.to_sym
+      
+      frog.should eq :frog
+    end
+    
+  end
+  
 end
-
